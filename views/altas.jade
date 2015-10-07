@@ -1,0 +1,20 @@
+include layout
+
+block content
+
+form(method='post')
+  .row
+    h1 Altas
+  .row.collapse 
+    .large-2.columns
+      label.inline First Name
+    .large-10.columns
+      input(type='text', name='firstName', placeholder='Jade')
+  .row.collapse 
+    .large-2.columns
+      label.inline Location
+    .large-10.columns
+      input(type='text', name='location', placeholder='Mexico')
+
+  button.raduis(type='submit') Alta
+    
